@@ -1454,17 +1454,21 @@
     ]
   },
   "packageFolders": {
-    "/home/ivan/.nuget/packages/": {}
+    "/home/ivan/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ivan/Apps Ivan/TestIvanASP/TestIvanASP.csproj",
+      "projectUniqueName": "/home/ivan/Development/TestIvanASP/TestIvanASP.csproj",
       "projectName": "TestIvanASP",
-      "projectPath": "/home/ivan/Apps Ivan/TestIvanASP/TestIvanASP.csproj",
+      "projectPath": "/home/ivan/Development/TestIvanASP/TestIvanASP.csproj",
       "packagesPath": "/home/ivan/.nuget/packages/",
-      "outputPath": "/home/ivan/Apps Ivan/TestIvanASP/obj/",
+      "outputPath": "/home/ivan/Development/TestIvanASP/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/ivan/.nuget/NuGet/NuGet.Config"
       ],
